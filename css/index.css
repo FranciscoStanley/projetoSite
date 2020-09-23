@@ -10,17 +10,6 @@ p {
     padding: 10px;
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-body {
-    display: block;
-    margin: 8px;
-}
-
 header {
     float: left;
     background-color: #79bd9a;
@@ -29,6 +18,30 @@ header {
 
 header P {
     float: right;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fff;
+    background: #0b486b;
+    padding: 20px 5px;
+}
+
+#logo {
+    float: left;
+    width: 40%;
+    height: 40%;
+    display: block;
+}
+
+body {
+    display: block;
+    margin: 8px;
 }
 
 footer {
