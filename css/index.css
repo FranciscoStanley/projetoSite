@@ -18,3 +18,8 @@ a {
 footer {
     background-color: lightgray;
 }
+
+body {
+    display: block;
+    margin: 8px;
+}
