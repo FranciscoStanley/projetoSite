@@ -10,16 +10,27 @@ p {
     padding: 10px;
 }
 
-a href,
 a {
-    color: rgb(50, 52, 156);
-}
-
-footer {
-    background-color: lightgray;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 body {
     display: block;
     margin: 8px;
+}
+
+header {
+    float: left;
+    background-color: #79bd9a;
+    width: 100%;
+}
+
+header P {
+    float: right;
+}
+
+footer {
+    background-color: #79bd9a;
 }
