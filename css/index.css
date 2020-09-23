@@ -1,5 +1,4 @@
 * {
-    width: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +28,19 @@ a {
 a:hover {
     color: #fff;
     background: #0b486b;
-    padding: 20px 5px;
+    padding: 5px 5px;
+}
+
+a href {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 #logo {
