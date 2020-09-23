@@ -50,7 +50,7 @@ nav {
     display: hidden;
     width: 40px;
     height: 40px;
-    background: #4c8fec url(../img/icone.png)center;
+    background: #4c8fec url(../img/menu-icon.png)center;
 }
 
 ul {
@@ -59,7 +59,7 @@ ul {
 
 li {
     display: inline-block;
-    float: left;
+    float: none;
     padding: 10px;
 }
 
