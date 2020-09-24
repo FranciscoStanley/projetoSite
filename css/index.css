@@ -70,6 +70,9 @@ body {
 
 footer {
     background-color: #79bd9a;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
 
 footer,
