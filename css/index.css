@@ -1,9 +1,6 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 p {
     text-align: justify;
+    color: #4e3d3d;
 }
 
 .img-imagens {
@@ -75,6 +72,7 @@ li {
 body {
     display: block;
     margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
