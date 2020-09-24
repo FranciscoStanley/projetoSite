@@ -50,7 +50,7 @@ nav {
     display: hidden;
     width: 40px;
     height: 40px;
-    background: #4c8fec url(../img/menu-icon.png)center;
+    background: #4c8fec url('../img/menu-icon.png')center;
 }
 
 ul {
@@ -108,5 +108,10 @@ footer {
     }
     p {
         text-align: justify;
+    }
+    .depoimentos {
+        box-shadow: 10px 10px 5px #888888;
+        border-radius: 5px;
+        width: 95%;
     }
 }
