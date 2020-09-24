@@ -93,7 +93,7 @@ p {
         top: 60px;
         padding: 20px;
         background: #fff;
-        width: 15%;
+        width: 20%;
     }
     nav li {
         text-align: left;
@@ -106,5 +106,11 @@ p {
     }
     nav li a {
         color: #3b8686;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    p {
+        text-align: justify;
     }
 }
