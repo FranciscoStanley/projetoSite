@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    text-align: justify;
+}
+
 .img-imagens {
     width: 40%;
     height: 40%;
@@ -36,8 +40,8 @@ a:hover {
 
 #logo {
     float: left;
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
     display: block;
 }
 
@@ -50,7 +54,12 @@ nav {
     display: hidden;
     width: 40px;
     height: 40px;
-    background: #4c8fec url(../img/menu-icon.png)center;
+    background: #4c8fec url('../img/menu-icon.png')center;
+}
+
+#nav-footer {
+    text-align: inherit;
+    padding: -40% left;
 }
 
 ul {
@@ -69,20 +78,20 @@ body {
 }
 
 footer {
-    background-color: #79bd9a;
+    background-color: #3b8686;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-footer,
-p {
+footer p {
     text-align: center;
-    height: 10%;
-    padding: 10px;
 }
 
 
 /*MEDIA QUERY*/
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:940px) {
     #menu-icon {
         display: inline-block;
     }
@@ -93,7 +102,7 @@ p {
         top: 60px;
         padding: 20px;
         background: #fff;
-        width: 15%;
+        width: 20%;
     }
     nav li {
         text-align: left;
@@ -106,5 +115,23 @@ p {
     }
     nav li a {
         color: #3b8686;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    p {
+        text-align: justify;
+    }
+    .depoimentos {
+        box-shadow: 10px 10px 5px #888888;
+        border-radius: 5px;
+        width: 95%;
+        padding-right: 10px;
+    }
+    nav#nav-footer {
+        display: none;
+    }
+    #copyright p {
+        text-align: center;
     }
 }
