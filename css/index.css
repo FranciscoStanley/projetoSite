@@ -114,4 +114,10 @@ footer {
         border-radius: 5px;
         width: 95%;
     }
+    nav#nav-footer {
+        display: none;
+    }
+    #copyright p {
+        text-align: center;
+    }
 }
