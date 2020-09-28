@@ -110,7 +110,7 @@ footer p {
 
 /*MEDIA QUERY Iphone*/
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:640px) {
     .hidden-xs {
         display: inline-block;
     }
