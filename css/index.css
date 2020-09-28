@@ -84,10 +84,33 @@ footer p {
     text-align: center;
 }
 
+#gerais1 img {
+    margin-left: 23%;
+}
+
+#gerais2 {
+    margin-left: 23%;
+}
+
+.depoimentos {
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 5px;
+    width: 98%;
+    padding-right: 10px;
+    margin: 5px;
+    background-color: #c9e5f5;
+}
+
+#slogan {
+    margin-right: 10px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
 
 /*MEDIA QUERY Iphone*/
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:960px) {
     .hidden-xs {
         display: inline-block;
     }
