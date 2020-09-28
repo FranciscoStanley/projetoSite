@@ -1,3 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #36393c;
+}
+
 p {
     text-align: justify;
     color: #4e3d3d;
@@ -15,7 +20,7 @@ p {
 
 header {
     float: left;
-    background-color: #79bd9a;
+    background-color: #3ee4e4;
     width: 100%;
 }
 
@@ -37,8 +42,8 @@ a:hover {
 
 #logo {
     float: left;
-    width: 45%;
-    height: 45%;
+    width: 30%;
+    height: 30%;
     display: block;
 }
 
@@ -47,26 +52,19 @@ nav {
     padding: 20px;
 }
 
-#menu-icon {
-    display: hidden;
-    width: 40px;
-    height: 40px;
-    background: #4c8fec url('../img/menu-icon.png')center;
-}
-
-#nav-footer {
-    text-align: inherit;
-    padding: -40% left;
-}
-
 ul {
     list-style-type: none;
 }
 
 li {
     display: inline-block;
-    float: none;
+    float: right;
     padding: 10px;
+}
+
+#nav-footer {
+    text-align: inherit;
+    padding: -40% left;
 }
 
 body {
@@ -76,10 +74,10 @@ body {
 }
 
 footer {
-    background-color: #3b8686;
     color: white;
     text-align: center;
     padding: 15px;
+    background-color: #3b8686;
 }
 
 footer p {
@@ -87,16 +85,16 @@ footer p {
 }
 
 
-/*MEDIA QUERY*/
+/*MEDIA QUERY Iphone*/
 
-@media only screen and (max-width:940px) {
-    #menu-icon {
+@media only screen and (max-width:640px) {
+    .hidden-xs {
         display: inline-block;
     }
     nav ul {
         display: none;
         position: absolute;
-        left: 20px;
+        right: 20px;
         top: 60px;
         padding: 20px;
         background: #fff;
@@ -131,5 +129,153 @@ footer p {
     }
     #copyright p {
         text-align: center;
+    }
+}
+
+
+/*MEDIA QUERY Ipad*/
+
+@media only screen and(min-width 481px) {
+    .hidden-xs {
+        display: hidden;
+    }
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header {
+        height: 250px;
+    }
+    section {
+        height: 250px;
+        clear: both;
+    }
+    #promo1 {
+        width: 48%;
+        float: left;
+    }
+    #promo2 {
+        width: 48%;
+        float: right;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+.visible-xs fas fa-bars {
+    display: hidden;
+    width: 53px;
+    height: 52px;
+    background: #fff;
+    border-radius: 50px;
+    margin-left: 229px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+#nav-footer {
+    text-align: inherit;
+    padding: -40% left;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #3ee4e4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+/*MEDIA QUERY Iphone*/
+
+@media only screen and (max-width:640px) {
+    .visible-xs fas fa-bars {
+        display: inline-block;
+    }
+    nav ul {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        padding: 5px;
+        background: #fff;
+        width: 20%;
+    }
+    nav li {
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li a {
+        color: #3b8686;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    p {
+        text-align: justify;
+    }
+    .depoimentos {
+        box-shadow: 10px 10px 5px #888888;
+        border-radius: 5px;
+        width: 95%;
+        padding-right: 10px;
+    }
+    nav#nav-footer {
+        display: none;
+    }
+    #copyright p {
+        text-align: center;
+    }
+}
+
+
+/*MEDIA QUERY Ipad*/
+
+@media only screen and(min-width 481px) {
+    body {
+        display: hidden;
+    }
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header {
+        height: 250px;
+    }
+    section {
+        height: 250px;
+        clear: both;
+    }
+    #promo1 {
+        width: 48%;
+        float: left;
+    }
+    #promo2 {
+        width: 48%;
+        float: right;
     }
 }

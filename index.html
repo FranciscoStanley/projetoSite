@@ -11,13 +11,15 @@
     <title>Estacionamento 24horas</title>
     <link rel="stylesheet" media="only screen and (color)" href=" ./css/index.css ">
     <link rel="canonical" href="index.html">
+    <script src="https://kit.fontawesome.com/faa1b3deea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png" alt="Estacionamento 24 horas - Logo" width="100" height="100">
+        <img src="img/logo.png" alt="Estacionamento 24 horas - Logo" width="100" height="100" id="logo">
 
-        <nav>
+        <nav class="visible-xs fas fa-bars">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="servicos.html">Serviços</a></li>
@@ -27,7 +29,15 @@
             </ul>
         </nav>
 
-        <a href="#" id="menu-icon"></a>
+        <nav class="hidden-xs">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
 
         <p id="Slogan">
             <h1>Estacionamento 24 horas</h1>
@@ -41,6 +51,7 @@
         <!--Seção de promoções-->
 
         <section>
+
             <h2>Promoções</h2>
             <div id="promo1 ">
                 <p>
@@ -128,7 +139,7 @@
             </p>
 
         </div>
-        <br><br>
+        <br>
         <footer id="final_footer ">
 
             <nav id="nav-footer">
@@ -149,5 +160,8 @@
         </footer>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </html>
