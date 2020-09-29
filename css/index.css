@@ -1,304 +1,358 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #36393c;
-}
-
-p {
-    text-align: justify;
-    color: #4e3d3d;
-}
-
-.img-imagens {
-    width: 40%;
-    height: 40%;
-}
-
-.contato {
-    width: 40%;
-    height: 40%;
-}
-
-header {
-    float: left;
-    background-color: #3ee4e4;
-    width: 100%;
-}
-
-header P {
-    float: right;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #fff;
-    background: #0b486b;
-    padding: 20px 5px;
-}
-
-#logo {
-    float: left;
-    width: 30%;
-    height: 30%;
-    display: block;
-}
-
-nav {
-    float: right;
-    padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    float: right;
-    padding: 10px;
-}
-
-#nav-footer {
-    text-align: inherit;
-    padding: -40% left;
-}
-
-body {
-    display: block;
-    margin: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
-    color: white;
-    text-align: center;
-    padding: 15px;
-    background-color: #3b8686;
-}
-
-footer p {
-    text-align: center;
-}
-
-#gerais1 img {
-    margin-left: 23%;
-}
-
-#gerais2 {
-    margin-left: 23%;
-}
-
-.depoimentos {
-    box-shadow: 10px 10px 5px #888888;
-    border-radius: 5px;
-    width: 98%;
-    padding-right: 10px;
-    margin: 5px;
-    background-color: #c9e5f5;
-}
-
-#slogan {
-    margin-right: 10px;
-    font-weight: bold;
-    letter-spacing: 7px;
-}
-
-
-/*MEDIA QUERY Iphone*/
-
-@media only screen and (max-width:640px) {
-    .hidden-xs {
-        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #36393c;
     }
-    nav ul {
-        display: none;
-        position: absolute;
-        right: 20px;
-        top: 60px;
+    
+    p {
+        text-align: justify;
+        color: #4e3d3d;
+    }
+    
+    .img-imagens {
+        width: 40%;
+        height: 40%;
+    }
+    
+    .contato {
+        width: 40%;
+        height: 40%;
+    }
+    
+    header {
+        float: left;
+        background-color: #3ee4e4;
+        width: 100%;
+    }
+    
+    header P {
+        float: right;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: #fff;
+        background: #0b486b;
+        padding: 20px 5px;
+    }
+    
+    #logo {
+        float: left;
+        width: 30%;
+        height: 30%;
+        display: block;
+    }
+    
+    nav {
+        float: right;
         padding: 20px;
-        background: #fff;
-        width: 20%;
     }
-    nav li {
-        text-align: left;
-        width: 100%;
-        padding: 10px 0;
-        margin: 0;
+    
+    ul {
+        list-style-type: none;
     }
-    nav:hover ul {
-        display: block;
-    }
-    nav li a {
-        color: #3b8686;
-    }
-    nav:hover ul {
-        display: block;
-    }
-    p {
-        text-align: justify;
-    }
-    .depoimentos {
-        box-shadow: 10px 10px 5px #888888;
-        border-radius: 5px;
-        width: 95%;
-        padding-right: 10px;
-    }
-    nav#nav-footer {
-        display: none;
-    }
-    #copyright p {
-        text-align: center;
-    }
-}
-
-
-/*MEDIA QUERY Ipad*/
-
-@media only screen and(min-width 481px) {
-    .hidden-xs {
-        display: hidden;
-    }
-    body {
-        width: 100%;
-        margin: 0 auto;
-    }
-    header {
-        height: 250px;
-    }
-    section {
-        height: 250px;
-        clear: both;
-    }
-    #promo1 {
-        width: 48%;
-        float: left;
-    }
-    #promo2 {
-        width: 48%;
-        float: right;
-    }
-    p {
-        text-align: center;
-    }
-}
-
-.visible-xs fas fa-bars {
-    display: hidden;
-    width: 53px;
-    height: 52px;
-    background: #fff;
-    border-radius: 50px;
-    margin-left: 229px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    float: left;
-    padding: 10px;
-}
-
-#nav-footer {
-    text-align: inherit;
-    padding: -40% left;
-}
-
-body {
-    display: block;
-    margin: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
-    background-color: #3ee4e4;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-
-footer p {
-    text-align: center;
-}
-
-
-/*MEDIA QUERY Iphone*/
-
-@media only screen and (max-width:640px) {
-    .visible-xs fas fa-bars {
+    
+    li {
         display: inline-block;
+        float: right;
+        padding: 10px;
     }
-    nav ul {
-        display: none;
-        position: absolute;
-        right: 20px;
-        top: 50px;
-        padding: 5px;
-        background: #fff;
-        width: 20%;
+    
+    #nav-footer {
+        text-align: inherit;
+        padding: -40% left;
     }
-    nav li {
-        text-align: left;
-        width: 100%;
-        padding: 10px 0;
-        margin: 0;
-    }
-    nav:hover ul {
+    
+    body {
         display: block;
+        margin: 8px;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    nav li a {
-        color: #3b8686;
+    
+    footer {
+        color: white;
+        text-align: center;
+        padding: 15px;
+        background-color: #3b8686;
     }
-    nav:hover ul {
-        display: block;
+    
+    footer p {
+        text-align: center;
     }
-    p {
-        text-align: justify;
+    
+    #gerais1 img {
+        margin-left: 23%;
     }
+    
+    #gerais2 {
+        margin-left: 23%;
+    }
+    
     .depoimentos {
         box-shadow: 10px 10px 5px #888888;
         border-radius: 5px;
-        width: 95%;
+        width: 98%;
         padding-right: 10px;
+        margin: 5px;
+        background-color: #c9e5f5;
     }
-    nav#nav-footer {
-        display: none;
+    /*MEDIA QUERY Iphone*/
+    
+    @media only screen and (max-width:640px) {
+        .hidden-xs {
+            display: inline-block;
+        }
+        nav ul {
+            display: none;
+            position: absolute;
+            right: 20px;
+            top: 60px;
+            padding: 20px;
+            background: #fff;
+            width: 20%;
+        }
+        nav li {
+            text-align: left;
+            width: 100%;
+            padding: 10px 0;
+            margin: 0;
+        }
+        nav:hover ul {
+            display: block;
+        }
+        nav li a {
+            color: #3b8686;
+        }
+        nav:hover ul {
+            display: block;
+        }
+        p {
+            text-align: justify;
+        }
+        .depoimentos {
+            box-shadow: 10px 10px 5px #888888;
+            border-radius: 5px;
+            width: 95%;
+            padding-right: 10px;
+        }
+        nav#nav-footer {
+            display: none;
+        }
+        #copyright p {
+            text-align: center;
+        }
     }
-    #copyright p {
+    /*MEDIA QUERY Ipad*/
+    
+    @media only screen and(min-width 481px) {
+        .hidden-xs {
+            display: hidden;
+        }
+        body {
+            width: 100%;
+            margin: 0 auto;
+        }
+        header {
+            height: 250px;
+        }
+        section {
+            height: 250px;
+            clear: both;
+        }
+        #promo1 {
+            width: 48%;
+            float: left;
+        }
+        #promo2 {
+            width: 48%;
+            float: right;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    
+    .visible-xs fas fa-bars {
+        display: hidden;
+        width: 53px;
+        height: 52px;
+        background: #fff;
+        border-radius: 50px;
+        margin-left: 229px;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        display: inline-block;
+        float: left;
+        padding: 10px;
+    }
+    
+    #nav-footer {
+        text-align: inherit;
+        padding: -40% left;
+    }
+    
+    body {
+        display: block;
+        margin: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    footer {
+        background-color: #3ee4e4;
+        color: white;
         text-align: center;
+        padding: 15px;
+    }
+    
+    footer p {
+        text-align: center;
+    }
+    /*MEDIA QUERY Iphone*/
+    
+    @media only screen and (max-width:640px) {
+        .visible-xs fas fa-bars {
+            display: inline-block;
+        }
+        nav ul {
+            display: none;
+            position: absolute;
+            right: 20px;
+            top: 50px;
+            padding: 5px;
+            background: #fff;
+            width: 20%;
+        }
+        nav li {
+            text-align: left;
+            width: 100%;
+            padding: 10px 0;
+            margin: 0;
+        }
+        nav:hover ul {
+            display: block;
+        }
+        nav li a {
+            color: #3b8686;
+        }
+        nav:hover ul {
+            display: block;
+        }
+        p {
+            text-align: justify;
+        }
+        .depoimentos {
+            box-shadow: 10px 10px 5px #888888;
+            border-radius: 5px;
+            width: 95%;
+            padding-right: 10px;
+        }
+        nav#nav-footer {
+            display: none;
+        }
+        #copyright p {
+            text-align: center;
+        }
+        #informações {
+            clear: both;
+            width: 100%;
+        }
+        input[type=text],
+        textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .button {
+            background-color: #79bd9a;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
     }
 }
 
-
 /*MEDIA QUERY Ipad*/
-
 @media only screen and(min-width 481px) {
     body {
         display: hidden;
     }
+    
     body {
         width: 100%;
         margin: 0 auto;
     }
+    
     header {
         height: 250px;
     }
+    
     section {
         height: 250px;
         clear: both;
     }
-    #promo1 {
-        width: 48%;
-        float: left;
-    }
+    
+    #promo1,
     #promo2 {
         width: 48%;
-        float: right;
+        float: left;
+        margin-left: 10px;
+        border: 1px solid #ccc;
+    }
+    
+    #gerais1,
+    #gerais2,
+    #gerais3 {
+        float: left;
+        width: 32%;
+        margin-left: 10px;
+        border: 1px solid #CCC;
+        height: 320px;
+    }
+    
+    #gerais2 {
+        margin-left: 23%;
+    }
+    
+    .depoimentos {
+        box-shadow: 3px 3px 3px #888888;
+        border-radius: 5px;
+        width: 48%;
+        float: left;
+        margin: 0 0 15px 15px;
+    }
+    
+    footer {
+        height: 200px;
+        clear: both;
+    }
+    
+    #slogan {
+        margin-right: 10px;
+        font-weight: bold;
+        letter-spacing: 7px;
+    }
+}
+
+/*MEDIA QUERY PC*/
+@media only screen and(min-width 960px) {
+    body {
+        width: 960px;
     }
 }
